@@ -12,6 +12,9 @@ public class GenericMethod {
     /*Generic method*/
     public static <E> void printArrayContent(E[] array)
     {
+        /*For each time through the loop, output the value 'element'
+        * It gets the value 'element' from the array
+        * */
         for(E element: array)
         {
             System.out.println(element + " ");
